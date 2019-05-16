@@ -5,36 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home page</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css">  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>About me</title>
 </head>
 
 <body>
     <header>
         <h1>Victoire Baron</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
 
-    <main>
-        <h2>About me</h2>
-        <img src="assets/images/Portrait.jpg" alt="Portrait">
-        <p>Hi, my name is Victoire and I am a front-en web developer.</p>
-        <p>I decided to do a career change the last year, and It’s been 6 months that I learn coding with online courses
-            as a self-taught. </p>
-        <p>I began to learn HTML, CSS, Javascript and JQuery as a self-taught without any formal education in computer
-            science, only via the websites like codecademy, freecodecamp, openclassroom, w3schools… </p>
-        <p>I completed this learning process by the Coding Boot Camp at UC Berkeley extension. It was a great experience where I learn everything. </p>
+    <section class="main">
+        <header class="about-me">
+            <h2>About Me</h2>
+        </header>
+        <div class="content">
+            <img src="assets/images/Portrait.jpg" alt="Portrait" id='imgportrait'>
+            <div class="text">
+                <p>Hi, my name is Victoire and I am a full-stack developer.</p>
+                <p>I decided to do a career change the last year, and for 6 months I learned coding with online
+                    courses
+                    as a self-taught. </p>
+                <p>I began to learn HTML, CSS, Javascript and JQuery without any formal education in
+                    computer
+                    science, only via the websites like codecademy, freecodecamp, openclassroom, w3schools… </p>
+                <p>I completed this learning process by the Coding Boot Camp at UC Berkeley extension. It was a really
+                    great
+                    experience
+                    where I learned a lot. </p>
+                <p>During this program, I attended informative lectures and took part in a variety of individual and
+                    team
+                    exercises, working independently and in groups, in the classroom and at home.</p>
+                </p>
+                <p>
+                    To build my projects, I had to combine my knowledges of frond-end and back-end technologies. You
+                    will find my portfolio which recounts what I could accomplish during my
+                    apprenticeship.</p>
+            </div>
+        </div>
+    </section>
 
 
-    </main>
-
-    <footer>Copyright©</footer>
+    <footer>Copyright ©</footer>
 </body>
 
 </html>
