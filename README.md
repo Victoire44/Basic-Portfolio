@@ -1,12 +1,19 @@
 # Basic-Portfolio
-Basic-Portfolio is an excercice from UC Berkely extension - coding Boot Camp. We have to build a professional portfolio site by using HTML and CSS.
 
-##quick start
+## Quick start
 Open index.html in your browser.
 
-##Excercice resolution steps
+## Excercice resolution steps
 
-At first, I build the structure of my webpages with HTML elements. 
+Firstly, I build the structure of my webpages with HTML elements. 
 
+## technologies Used
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Author
+
+Victoire Baron 
 
 
