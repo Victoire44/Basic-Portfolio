@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my Portfolio">
+    <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
@@ -11,36 +12,38 @@
 
 <body>
     <header>
-        <h1>Victoire Baron</h1>
-        <nav id="menu">
-            <ul>
-                <a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
+        <div id="wrapper">
+            <h1>Victoire Baron</h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
-
-    <section class="main">
-        <header class="portfolio">
-            <h2>Portfolio</h2>
-        </header>
-        <div class="clearfix">
-            <img src="assets/images/picture1.jpeg" alt="Picture" class="portfolio">
-            <p>Hangman</p>
-            <img src="assets/images/picture2.jpeg" alt="Picture" class="portfolio">
-            <p>RPG Game</p>
-            <img src="assets/images/picture3.jpeg" alt="Picture" class="portfolio">
-            <p>Trivia Game</p>
-            <img src="assets/images/picture4.jpeg" alt="Picture" class="portfolio">
-            <p>Rutgers Info Widget</p>
-            <img src="assets/images/picture5.jpeg" alt="Picture" class="portfolio">
-            <p>Rock Paper Scissors</p>
+    <main role="main">
+        <div id="main-wrapper">
+            <header class="portfolio">
+                <h2>Portfolio</h2>
+            </header>
+            <div class="container">
+                <img src="assets/images/picture1.jpeg" alt="Picture" class="portfolio">
+                <p>Hangman</p>
+                <img src="assets/images/picture2.jpeg" alt="Picture" class="portfolio">
+                <p>RPG Game</p>
+                <img src="assets/images/picture3.jpeg" alt="Picture" class="portfolio">
+                <p>Trivia Game</p>
+                <img src="assets/images/picture4.jpeg" alt="Picture" class="portfolio">
+                <p>Rutgers Info Widget</p>
+                <img src="assets/images/picture5.jpeg" alt="Picture" class="portfolio">
+                <p>Rock Paper Scissors</p>
+            </div>
         </div>
-    </section>
+    </main>
     <footer>Copyright ©</footer>
 </body>
 
